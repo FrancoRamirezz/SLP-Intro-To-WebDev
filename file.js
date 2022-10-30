@@ -20,7 +20,10 @@ window.addEventListener('load', () => {
         e.preventDefault();
 
         const task1 = input1.value;
-
+        // making each one 
+        if(task1){
+          alert("Please complete your" + " "+ task1)
+        }
         // (notification if there's no input from user)
         if (!task1){
           alert("Please fill out your task!");
